@@ -19,6 +19,7 @@
             $(navItemDiv).removeClass('hover');
         })
     });
-    //关联滚动条滚动条向下滚动超过60px后，添加固定在窗口顶部的navbar
+    //关联滚动条滚动条向下滚动超过60px后，添加固定在窗口顶部的
+
 
 })(jQuery);
