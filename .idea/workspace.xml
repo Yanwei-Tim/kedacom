@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10330a31-56df-4572-8640-ff07ecd6e94b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eg.html" afterPath="$PROJECT_DIR$/eg.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navbar.js" afterPath="$PROJECT_DIR$/navbar.js" />
     </list>
     <ignored path="untitled9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="263" column="21" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="21" />
+            <state relative-caret-position="50">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -55,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eg.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="263" column="64" selection-start-line="263" selection-start-column="64" selection-end-line="263" selection-end-column="64" />
+            <state relative-caret-position="6200">
+              <caret line="248" column="37" selection-start-line="248" selection-start-column="37" selection-end-line="248" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -112,8 +110,8 @@
         <option value="$PROJECT_DIR$/carousel.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/eg.html" />
-        <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/navbar.js" />
+        <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
   </component>
@@ -276,7 +274,7 @@
       <workItem from="1488247016436" duration="5380000" />
       <workItem from="1488331791743" duration="8618000" />
       <workItem from="1488376906458" duration="1451000" />
-      <workItem from="1488458764578" duration="1645000" />
+      <workItem from="1488458764578" duration="3258000" />
     </task>
     <task id="LOCAL-00001" summary="2017-03-01 webstorm git功能试验">
       <created>1488377745845</created>
@@ -299,11 +297,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488459903040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="调整浏览器兼容性，使轮播跳转按钮对firefox兼容">
+      <created>1488460673041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488460673041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252204000" />
+    <option name="totallyTimeSpent" value="253817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +373,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2017-03-01 webstorm git功能试验" />
     <MESSAGE value="case&gt;h4 增加hover变色效果，字体加粗" />
-    <option name="LAST_COMMIT_MESSAGE" value="case&gt;h4 增加hover变色效果，字体加粗" />
+    <MESSAGE value="调整浏览器兼容性，使轮播跳转按钮对firefox兼容" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整浏览器兼容性，使轮播跳转按钮对firefox兼容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,14 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="263" column="21" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -797,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="263" column="64" selection-start-line="263" selection-start-column="64" selection-end-line="263" selection-end-column="64" />
+        <state relative-caret-position="6200">
+          <caret line="248" column="37" selection-start-line="248" selection-start-column="37" selection-end-line="248" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -807,6 +805,14 @@
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
