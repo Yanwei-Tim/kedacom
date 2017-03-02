@@ -19,6 +19,14 @@
             $(navItemDiv).removeClass('hover');
         })
     });
-    //关联滚动条滚动条向下滚动超过60px后，添加固定在窗口顶部的navbar
-
+    //关联页面向下移动比例超过60px后，为 div.header 添加类fixed
+    EventUtil.addHandler(window,'scroll',fixedHandler);
+    function fixedHandler() {
+        console.log(window.pageYOffset);
+        if (window.pageYOffset>=60){
+            $('.header').addClass('fixed')
+        }else {
+            $('.header').removeClass('fixed')
+        }
+    }
 })(jQuery);
