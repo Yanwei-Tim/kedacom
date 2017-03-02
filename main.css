@@ -725,11 +725,17 @@ dropmenu
     /*max-width: 90%;*/
 }
 .case-title>h4{
+    font-weight: bold;
     margin: 0;
     font-weight: bold;
     font-size: 15px;
     width: inherit;
+    font-family: "Microsoft YaHei";
 }
+.case-title>h4:hover{
+    color: rgb(0, 104, 183);
+}
+
 .case-p{
     color: #666;
     line-height: 22px;
