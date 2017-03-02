@@ -19,7 +19,8 @@
             $(navItemDiv).removeClass('hover');
         })
     });
-    //关联页面向下移动比例超过60px后，为 div.header 添加类fixed
+    //关联页面向下移动比例超过60px后，为 div.header 添加类fixed .
+    //
     EventUtil.addHandler(window,'scroll',fixedHandler);
     function fixedHandler() {
         console.log(window.pageYOffset);
