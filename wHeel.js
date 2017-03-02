@@ -103,3 +103,22 @@
 
     return wHeel;
 });
+// 1.cd C:\Users\Administrator\Desktop\MyProject  //进入到你要提交的项目文件夹
+// 2. Git init   //这是初始化在这个文件夹中建立一个空库
+//
+// 3.git add  //这个命令 你可以直接  git add . 这是把当前文件夹中的所有文件都加入到上传的列表中(注意要有空格),你还可以添加具体的文件 git add 你要添加的文件
+//
+// (输入ls命令回车,你可以查看C:\Users\Administrator\Desktop\MyProject下面的文件)
+//
+// 4.git commit -m "更新内容说明""
+// 5.git remote add origin https://github.com/waitForWind/MyFirstGitProject.git  //这里说两处地方  origin 这个相当于是个别名  你可以自己随便写也可以写成当前文件夹的名 , 后面的地址是你在GITHUB 刚刚新建的 库 地址, 你建了哪几个库,你到GITHUB找到 你 建的库点进去 就能看到相应的地址.
+//
+//     6.git push -u origin master    //开始上传了  ,然后 会提示你 输入 你在 GITHUB上注册的用户名跟密码 输入正确后就等着上传吧
+//
+// 第二种情况：更新代码的操作(不是第一次提交)
+//
+// 1.cd C:\Users\Administrator\Desktop\MyProject  //进入到你要提交的项目文件夹
+// 2.git add .     //或者添加具体的文件 git add 你要添加的文件
+//
+// 3.git commit -m "说明"
+// 4.git push -u kedacom master   真正开始上传代码到github  //还记的这个别名吗  origin  这个别名就是你用第一种方法首次 向 GITHUB提交代码 你用的 别名
