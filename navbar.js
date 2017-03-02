@@ -22,7 +22,7 @@
     //关联页面向下移动比例超过60px后，为 div.header 添加类fixed .
     EventUtil.addHandler(window,'scroll',fixedHandler);
     function fixedHandler() {
-        console.log(window.pageYOffset);
+        // console.log(window.pageYOffset);
         if (window.pageYOffset>=60){
             $('.header').addClass('fixed')
         }else {

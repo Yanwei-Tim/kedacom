@@ -261,6 +261,7 @@ header微信等小icon
     height: 30px;
     width: 190px;
     float: left;
+    padding-top: 1px;
 
 }
 #searchInput input{
