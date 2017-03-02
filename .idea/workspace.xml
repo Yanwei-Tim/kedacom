@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10330a31-56df-4572-8640-ff07ecd6e94b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eg.html" afterPath="$PROJECT_DIR$/eg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navbar.js" afterPath="$PROJECT_DIR$/navbar.js" />
     </list>
     <ignored path="untitled9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +65,8 @@
       <file leaf-file-name="eg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+            <state relative-caret-position="380">
+              <caret line="288" column="18" selection-start-line="288" selection-start-column="18" selection-end-line="288" selection-end-column="18" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -87,8 +84,8 @@
       <file leaf-file-name="navbar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/navbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="380">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -97,7 +94,7 @@
       <file leaf-file-name="wHeel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wHeel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="-634">
               <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding />
             </state>
@@ -118,6 +115,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="fatefinger &lt;532357944@qq.com&gt;" />
         <option value="yangfan &lt;532357944@qq.com&gt;" />
       </list>
     </option>
@@ -298,7 +296,7 @@
       <workItem from="1488158866777" duration="6260000" />
       <workItem from="1488247016436" duration="5380000" />
       <workItem from="1488331791743" duration="8618000" />
-      <workItem from="1488419438652" duration="14470000" />
+      <workItem from="1488419438652" duration="15281000" />
     </task>
     <task id="LOCAL-00001" summary="2017-03-02 增添浮动navbar功能">
       <created>1488434305696</created>
@@ -314,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488434745121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2017-03-02 增添浮动navbar功能 &#10;                 增加搜索 icon 点击后出现&lt;input&gt;">
+      <created>1488445218233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488445218233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263578000" />
+    <option name="totallyTimeSpent" value="264389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +407,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2017-03-02 增添浮动navbar功能" />
     <MESSAGE value="2017-03-02 增添浮动navbar功能 github提交检测" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017-03-02 增添浮动navbar功能 github提交检测" />
+    <MESSAGE value="2017-03-02 增添浮动navbar功能 &#10;                 增加搜索 icon 点击后出现&lt;input&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017-03-02 增添浮动navbar功能 &#10;                 增加搜索 icon 点击后出现&lt;input&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,18 +811,18 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/bootstrap-datetimepicker-master/sample in bootstrap v3/bootstrap/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/wHeel.js">
+    <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="174">
+          <caret line="269" column="17" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carousel.js">
+    <entry file="file://$PROJECT_DIR$/wHeel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state relative-caret-position="-634">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -831,18 +837,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="269" column="17" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
+        <state relative-caret-position="1235">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        <state relative-caret-position="380">
+          <caret line="288" column="18" selection-start-line="288" selection-start-column="18" selection-end-line="288" selection-end-column="18" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -858,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="380">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>
