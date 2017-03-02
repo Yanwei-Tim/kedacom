@@ -20,7 +20,6 @@
         })
     });
     //关联页面向下移动比例超过60px后，为 div.header 添加类fixed .
-    //
     EventUtil.addHandler(window,'scroll',fixedHandler);
     function fixedHandler() {
         console.log(window.pageYOffset);
@@ -30,4 +29,8 @@
             $('.header').removeClass('fixed')
         }
     }
+//    icon 栏 点击#search>a searchbox width:40px->width:230px 1s 过渡
+    $("#search").click(function(){
+        $(".searchbox").addClass('searchbox-change')
+    });
 })(jQuery);
