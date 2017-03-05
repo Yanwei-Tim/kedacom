@@ -366,8 +366,8 @@
         z-index: 9999;
         background-color: white;
         margin-top: 0;
-        top: 100%;
-        white-space: nowrap;
+        /*top: 100%;*/
+        /*white-space: nowrap;*/
         display: none;
         padding-top: 10px;
         padding-left: 15px;
@@ -377,8 +377,8 @@
         box-shadow: 0px 0px 2px #888888;
         border-top: solid 2px #008bca;
         min-width: 80%;
-        float: left;
-        height: auto;
+        /*float: left;*/
+        /*height: auto;*/
     }
 
     .hover {
@@ -386,10 +386,20 @@
     }
 
     .dropmenu .list {
-        display: inline-table;
+        display: inline-block;
         /*width: 100%;*/
     }
-
+    .navItem:last-child .dropmenu{
+        width: 700px;
+    }
+    .navItem:nth-child(5) .dropmenu{
+        width: 400px;
+    }
+    .navItem:nth-child(4) .dropmenu{
+        width: 500px;
+        left: -200px;
+        /*float: right;*/
+    }
     .dropmenu .list > h5 {
         text-align: left;
         margin: 10px;
@@ -511,6 +521,7 @@
 
     .dropmenu .icon-list {
         display: inline-table;
+        float: left;
     }
 
     .dropmenu .icon-list a {
@@ -1122,7 +1133,7 @@
         background-color: white;
         margin-top: 0;
         top: 100%;
-        /*white-space: nowrap;*/
+        white-space: nowrap;
         display: none;
         padding-top: 10px;
         padding-left: 15px;
@@ -1131,7 +1142,7 @@
         position: absolute;
         box-shadow: 0px 0px 2px #888888;
         border-top: solid 2px #008bca;
-        /*min-width: 80%;*/
+        min-width: 80%;
         float: left;
         height: auto;
     }
@@ -1145,7 +1156,16 @@
         float: left;
         /*width: 100%;*/
     }
-
+    .navItem:last-child .dropmenu{
+        width: 900px;
+    }
+    .navItem:nth-child(5) .dropmenu{
+        width: 550px;
+    }
+    .navItem:nth-child(4) .dropmenu{
+        width: 500px;
+        /*float: right;*/
+    }
     .dropmenu .list > h5 {
         text-align: left;
         margin: 10px;
@@ -1888,9 +1908,8 @@
         position: absolute;
         box-shadow: 0px 0px 2px #888888;
         border-top: solid 2px #008bca;
-        min-width: 80%;
-        float: left;
-        height: auto;
+        /*min-width: 80%;*/
+
     }
 
     .hover {
@@ -1899,12 +1918,22 @@
 
     .dropmenu .list {
         display: inline-table;
-        /*width: 100%;*/
+
     }
 
     .dropmenu .list > h5 {
         text-align: left;
         margin: 10px;
+    }
+    .navItem:last-child .dropmenu{
+        width: 1050px;
+    }
+    .navItem:nth-child(5) .dropmenu{
+             width: 550px;
+         }
+    .navItem:nth-child(4) .dropmenu{
+        width: 600px;
+        /*float: right;*/
     }
 
     .dropmenu .list > h5 > a {
@@ -2023,6 +2052,7 @@
 
     .dropmenu .icon-list {
         display: inline-table;
+        float: left;
     }
 
     .dropmenu .icon-list a {
