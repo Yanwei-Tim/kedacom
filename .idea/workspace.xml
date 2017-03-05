@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10330a31-56df-4572-8640-ff07ecd6e94b" name="Default" comment="">
+    <list default="true" id="10330a31-56df-4572-8640-ff07ecd6e94b" name="Default" comment="分辨率适配 768px 992px 1200px,TODO min-width:0">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eg.html" afterPath="$PROJECT_DIR$/eg.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
     </list>
     <ignored path="untitled9.iws" />
@@ -35,9 +34,12 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="398" column="21" selection-start-line="398" selection-start-column="21" selection-end-line="398" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="150" column="14" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
+              <folding>
+                <element signature="e#34342#50625#0" expanded="false" />
+                <element signature="e#50627#66640#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -281,7 +283,7 @@
       <workItem from="1488458764578" duration="3258000" />
       <workItem from="1488506467146" duration="10176000" />
       <workItem from="1488603168057" duration="1201000" />
-      <workItem from="1488713404598" duration="8770000" />
+      <workItem from="1488713404598" duration="10254000" />
     </task>
     <task id="LOCAL-00001" summary="2017-03-01 webstorm git功能试验">
       <created>1488377745845</created>
@@ -318,13 +320,20 @@
       <option name="project" value="LOCAL" />
       <updated>1488718967322</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="分辨率适配，navbar dropmenu 768px 992px 1200px">
+      <created>1488722412745</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488722412745</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273964000" />
+    <option name="totallyTimeSpent" value="275448000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -338,8 +347,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18487395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1897436" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1894852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35384616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,7 +360,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35384616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -389,7 +398,9 @@
     <MESSAGE value="case&gt;h4 增加hover变色效果，字体加粗" />
     <MESSAGE value="调整浏览器兼容性，使轮播跳转按钮对firefox兼容" />
     <MESSAGE value="调整min-width:1200px 中case间隔" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整min-width:1200px 中case间隔" />
+    <MESSAGE value="分辨率适配，navbar dropmenu 768px 992px 1200px" />
+    <MESSAGE value="分辨率适配 768px 992px 1200px,TODO min-width:0" />
+    <option name="LAST_COMMIT_MESSAGE" value="分辨率适配 768px 992px 1200px,TODO min-width:0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,7 +424,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -445,7 +459,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4650">
           <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,7 +494,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -509,7 +529,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,7 +564,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +606,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -619,7 +648,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,9 +847,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="398" column="21" selection-start-line="398" selection-start-column="21" selection-end-line="398" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="150" column="14" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
+          <folding>
+            <element signature="e#34342#50625#0" expanded="false" />
+            <element signature="e#50627#66640#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
