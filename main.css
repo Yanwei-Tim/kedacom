@@ -147,7 +147,7 @@
     height: inherit;
 }
 
-@media (min-width: 0) {
+@media (max-width: 767px) {
     /*TODO: 重做logo navbar case footer*/
     html {
         font-family: sans-serif;
@@ -168,17 +168,18 @@
     }
 
     .header {
+        background-color: #0068b7;
         width: 100%;
         margin: 0;
         padding: 0 15px;
-        height: 80px;
+        height: 50px;
     }
 
     .container {
         margin: 0 auto;
         padding: 0 15px;
         height: inherit;
-        max-width: 750px;
+        /*max-width: 750px;*/
     }
 
     .container-full {
@@ -187,14 +188,22 @@
         height: auto;
         width: 100%;
     }
+.logo-mibile{
+    background: url("img/logo_white_mobile.png") no-repeat ;
+    position: relative;
+    display: inline;
+}
+
+
 
     .logo {
+        display: none;
         height: inherit;
     }
 
     .logo > a {
         padding: 0 15px;
-        background: url("img/logo.png") left no-repeat;
+        background: url("img/logo_white_mobile.png") left no-repeat;
         height: inherit;
         width: 100%;
         position: relative;
@@ -202,114 +211,12 @@
 
     }
 
+.searchbox{
+    display: none  ;
+}
     /*
     header微信等小icon
     */
-    .icon {
-        height: 36px;
-        display: block;
-        max-width: 100%;
-        position: relative;
-        width: 100%;
-        margin: 0;
-        z-index: 9900;
-
-    }
-
-    .icon > div {
-        position: relative;
-        height: 30px;
-        line-height: 30px;
-        float: right;
-    }
-
-    #call > a {
-        background: url("img/call.png") no-repeat right;
-        height: 30px;
-        width: 34px;
-        float: left;
-
-    }
-
-    .searchbox {
-        width: 40px;
-        overflow: hidden;
-        height: 30px;
-        transition: width ease-in-out 0.15s;
-        -moz-transition: width ease-in-out 0.15s;
-        -webkit-transition: width ease-in-out 0.15s;
-        -o-transition: width ease-in-out 0.15s;
-
-    }
-
-    .searchbox-change {
-        width: 230px;
-    }
-
-    #weixin > a {
-        background: url("img/weixin.png") no-repeat right;
-        height: 31px;
-        width: 30px;
-        float: right;
-    }
-
-    #search > a {
-        margin: 0 5px;
-        background: url("img/search.png") no-repeat right;
-        height: 30px;
-        width: 30px;
-        float: left;
-    }
-
-    #searchInput {
-        height: 30px;
-        width: 190px;
-        float: left;
-        padding-top: 1px;
-
-    }
-
-    #searchInput input {
-        border-radius: 4px;
-        border: 1px solid #ddd;
-        font-size: 12px;
-        height: 20px;
-        line-height: 20px;
-        width: 170px;
-        /*padding: 0 12px;*/
-        margin: 0 12px;
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-        padding-left: 10px;
-    }
-
-    #searchInput input:focus {
-        outline: none;
-        box-shadow: 0 0 8px rgba(102, 175, 233, .6);
-    }
-
-    #language > a {
-        background: url("img/language.png") no-repeat right;
-        height: 28px;
-        width: 30px;
-        float: right;
-    }
-
-    /*#call {*/
-    /*right: 120px;*/
-    /*}*/
-    /*#weixin {*/
-    /*right: 80px;*/
-    /*}*/
-    /*#search {*/
-    /*right: 40px;*/
-    /*float: left;*/
-    /*}*/
-    /*#language {*/
-    /*right: 0px;*/
-    /*}*/
-    #searchInput {
-        display: block;
-    }
 
     /*
     navbar
@@ -318,8 +225,9 @@
         position: relative;
         width: 100%;
         top: 36px;
-        display: block;
+        display: none;
         height: 44px;
+
     }
 
     .navbar .navbarList {
@@ -381,9 +289,6 @@
         /*height: auto;*/
     }
 
-    .hover {
-        display: block;
-    }
 
     .dropmenu .list {
         display: inline-block;
