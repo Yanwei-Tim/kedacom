@@ -177,23 +177,61 @@
 
     .container {
         margin: 0 auto;
-        padding: 0 15px;
+        /*padding: 0 15px;*/
         height: inherit;
-        /*max-width: 750px;*/
+        /*max-width: 767px;*/
+
+    }
+
+    .container-hide-sm {
+        display: none
     }
 
     .container-full {
-        margin: 0;
+        margin: 0 ;
         padding: 0;
         height: auto;
         width: 100%;
+        max-width: 767px;
     }
-.logo-mibile{
-    background: url("img/logo_white_mobile.png") no-repeat ;
-    position: relative;
-    display: inline;
-}
 
+    .logo-mibile {
+        background: url("img/logo_white_mobile.png")  no-repeat center center;
+        position: absolute;
+        display: inline-block;
+        left: 27%;
+        width: 260px;
+        height: 50px;
+        background-size: 70%;
+        line-height: 50px;
+        /*vertical-align: middle;*/
+    }
+    /*移动navbar 触发dropmenu-btn*/
+    .dropmenu-btn{
+        display: block;
+        float: left;
+        position: relative;
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .dropmenu-btn::after, .dropmenu-btn span,.dropmenu-btn::before{
+        display: block;
+        background-color: #fff;
+        width: 20px;
+        height: 2px;
+        top:50%;
+        position: absolute;
+    }
+    .dropmenu-btn::after{
+        content: "";
+        top: 18px;
+    }
+    .dropmenu-btn::before{
+        content: "";
+        top: 2px;
+    }
 
 
     .logo {
@@ -211,13 +249,13 @@
 
     }
 
-.searchbox{
-    display: none  ;
-}
+    .searchbox {
+        display: none;
+    }
+
     /*
     header微信等小icon
     */
-
     /*
     navbar
     */
@@ -289,22 +327,25 @@
         /*height: auto;*/
     }
 
-
     .dropmenu .list {
         display: inline-block;
         /*width: 100%;*/
     }
-    .navItem:last-child .dropmenu{
+
+    .navItem:last-child .dropmenu {
         width: 700px;
     }
-    .navItem:nth-child(5) .dropmenu{
+
+    .navItem:nth-child(5) .dropmenu {
         width: 400px;
     }
-    .navItem:nth-child(4) .dropmenu{
+
+    .navItem:nth-child(4) .dropmenu {
         width: 500px;
         left: -200px;
         /*float: right;*/
     }
+
     .dropmenu .list > h5 {
         text-align: left;
         margin: 10px;
@@ -447,8 +488,8 @@
 
     .carousel {
         display: block;
-        width: 100%;
-        height: 500px;
+        width: inherit;
+        height: 200px;
         position: relative;
         overflow: hidden;
     }
@@ -460,13 +501,14 @@
         padding: 0;
         margin: 0;
         white-space: nowrap;
+        height: 200px;
     }
 
     .img {
         margin: -2px;
         position: relative;
         width: 100%;
-        height: inherit;
+        height: 200px;
         display: inline-block;
         /*top: 0;*/
         white-space: nowrap;
@@ -474,25 +516,31 @@
 
     .img > a {
         margin: 0;
-        width: 100%;
-        height: inherit;
+        max-width: 100%;
+        height: 200px;
         display: block;
+
     }
 
     .img-first {
+
         background: url("img/kedashangshi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-second {
         background: url("img/zhifajiluyi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-third {
         background: url("img/zhinengjiaoyu.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-fourth {
         background: url("img/kedawangcheng.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .cirBtn {
@@ -538,15 +586,18 @@
     .carousel-img-box {
         position: absolute;
         left: 0;
-        width: 40%;
-        height: 360px;
+        width: 60%;
+        height: 150px;
         bottom: 0;
         padding: 0 15px;
         opacity: 0;
+        /*line-height: 200px;*/
     }
-
+    .carousel-img-box img{
+        max-width: 100%;
+    }
     .carouselBtn {
-        display: block;
+        display: none;
         position: absolute;
         border: 1px solid white;
         border-radius: 5px;
@@ -696,7 +747,6 @@
         margin-left: 20px;
         margin-right: 0px;
     }
-
 
     .case-date {
         margin: 0;
@@ -861,7 +911,6 @@
 
 }
 
-
 @media (min-width: 768px) {
 
     html {
@@ -895,7 +944,9 @@
         height: inherit;
         max-width: 750px;
     }
-
+.container-hide-not-sm{
+    display: none;
+}
     .container-full {
         margin: 0;
         padding: 0;
@@ -1104,17 +1155,21 @@
         display: inline-block;
         /*width: 100%;*/
     }
-    .navItem:last-child .dropmenu{
+
+    .navItem:last-child .dropmenu {
         width: 700px;
     }
-    .navItem:nth-child(5) .dropmenu{
+
+    .navItem:nth-child(5) .dropmenu {
         width: 400px;
     }
-    .navItem:nth-child(4) .dropmenu{
+
+    .navItem:nth-child(4) .dropmenu {
         width: 500px;
         left: -200px;
         /*float: right;*/
     }
+
     .dropmenu .list > h5 {
         text-align: left;
         margin: 10px;
@@ -1291,18 +1346,22 @@
 
     .img-first {
         background: url("img/kedashangshi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-second {
         background: url("img/zhifajiluyi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-third {
         background: url("img/zhinengjiaoyu.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-fourth {
         background: url("img/kedawangcheng.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .cirBtn {
@@ -1507,7 +1566,6 @@
         margin-right: 0px;
     }
 
-
     .case-date {
         margin: 0;
         padding: 0;
@@ -1703,6 +1761,9 @@
         padding: 0 15px;
         height: inherit;
         max-width: 960px;
+    }
+    .container-hide-not-sm{
+        display: none;
     }
 
     .container-full {
@@ -1901,16 +1962,20 @@
         float: left;
         /*width: 100%;*/
     }
-    .navItem:last-child .dropmenu{
+
+    .navItem:last-child .dropmenu {
         width: 900px;
     }
-    .navItem:nth-child(5) .dropmenu{
+
+    .navItem:nth-child(5) .dropmenu {
         width: 550px;
     }
-    .navItem:nth-child(4) .dropmenu{
+
+    .navItem:nth-child(4) .dropmenu {
         width: 500px;
         /*float: right;*/
     }
+
     .dropmenu .list > h5 {
         text-align: left;
         margin: 10px;
@@ -2086,18 +2151,22 @@
 
     .img-first {
         background: url("img/kedashangshi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-second {
         background: url("img/zhifajiluyi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-third {
         background: url("img/zhinengjiaoyu.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-fourth {
         background: url("img/kedawangcheng.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .cirBtn {
@@ -2500,6 +2569,9 @@
         height: inherit;
         max-width: 1170px;
     }
+    .container-hide-not-sm{
+        display: none;
+    }
 
     .container-full {
         margin: 0;
@@ -2699,13 +2771,16 @@
         text-align: left;
         margin: 10px;
     }
-    .navItem:last-child .dropmenu{
+
+    .navItem:last-child .dropmenu {
         width: 1050px;
     }
-    .navItem:nth-child(5) .dropmenu{
-             width: 550px;
-         }
-    .navItem:nth-child(4) .dropmenu{
+
+    .navItem:nth-child(5) .dropmenu {
+        width: 550px;
+    }
+
+    .navItem:nth-child(4) .dropmenu {
         width: 600px;
         /*float: right;*/
     }
@@ -2881,18 +2956,22 @@
 
     .img-first {
         background: url("img/kedashangshi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-second {
         background: url("img/zhifajiluyi.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-third {
         background: url("img/zhinengjiaoyu.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .img-fourth {
         background: url("img/kedawangcheng.jpg") no-repeat center;
+        background-size: auto 100%;
     }
 
     .cirBtn {
