@@ -33,4 +33,42 @@
     $("#search").click(function(){
         $(".searchbox").addClass('searchbox-change')
     });
+//    mobile-dropmenu 点击dropmenu-btn ，mobile-dropmenu height:0<->240px 过渡
+//    mobile-search 点击 search-mobile,mobile-search height:0<->55px 过渡
+//    dropmenuStatus , sarchboxStatus 记录两个组件状态
+
+    var dropmenuStatus=false;
+    var searchboxStatus=false;
+    $('.dropmenu-btn').click(
+        function () {
+            if ((!dropmenuStatus)&&(!searchboxStatus)) {
+                $('.mobile-dropmenu').addClass('mobile-click');
+                dropmenuStatus=true
+            }else if (dropmenuStatus&&(!searchboxStatus)){
+                $('.mobile-dropmenu').removeClass('mobile-click');
+                dropmenuStatus=false
+            }else if ((!dropmenuStatus)&&searchboxStatus){
+                $('.mobile-dropmenu').addClass('mobile-click');
+                $('.mobile-searchbox').removeClass('mobile-searchbox-click');
+                dropmenuStatus=true;
+                searchboxStatus=false;
+            }
+        }
+    );
+    $('.search-mobile').click(
+        function () {
+            if ((!dropmenuStatus)&&(!searchboxStatus)){
+                $('.mobile-searchbox').addClass('mobile-searchbox-click');
+                searchboxStatus=true;
+            }else if ((!dropmenuStatus)&&searchboxStatus){
+                $('.mobile-searchbox').removeClass('mobile-searchbox-click');
+                searchboxStatus=false;
+            }else if (dropmenuStatus&&(!searchboxStatus)){
+                $('.mobile-dropmenu').removeClass('mobile-click');
+                $('.mobile-searchbox').addClass('mobile-searchbox-click');
+                dropmenuStatus=false;
+                searchboxStatus=true;
+            }
+        }
+    )
 })(jQuery);
