@@ -33,5 +33,4 @@
     $("#search").click(function(){
         $(".searchbox").addClass('searchbox-change')
     });
-//    再试一次push
 })(jQuery);
