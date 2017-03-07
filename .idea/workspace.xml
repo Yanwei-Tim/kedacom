@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10330a31-56df-4572-8640-ff07ecd6e94b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/arrow_white_right.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eg.html" afterPath="$PROJECT_DIR$/eg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navbar.js" afterPath="$PROJECT_DIR$/navbar.js" />
     </list>
     <ignored path="untitled9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -395,7 +391,7 @@
       <workItem from="1488603168057" duration="1201000" />
       <workItem from="1488713404598" duration="10462000" />
       <workItem from="1488806697484" duration="6258000" />
-      <workItem from="1488848777902" duration="14587000" />
+      <workItem from="1488848777902" duration="14620000" />
     </task>
     <task id="LOCAL-00001" summary="2017-03-01 webstorm git功能试验">
       <created>1488377745845</created>
@@ -460,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488889696564</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="响应式设计：max-width：767px&#10;TODO:mobile-dropmenu ,mobile-searchbox">
+      <created>1488889754217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1488889754217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296501000" />
+    <option name="totallyTimeSpent" value="296534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
